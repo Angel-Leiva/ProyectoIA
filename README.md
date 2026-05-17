@@ -1,2 +1,0 @@
-# ProyectoIA
-proyecto de IA
