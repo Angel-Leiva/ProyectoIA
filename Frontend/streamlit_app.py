@@ -15,7 +15,7 @@ try:
     from Frontend.controller import AppController
 except ModuleNotFoundError:
     # Fallback when executed from inside Frontend folder context.
-    from controller import AppController
+    from Frontend.controller import AppController
 
 
 def _read_uploaded_csv(uploaded_file) -> tuple[pd.DataFrame, str]:
